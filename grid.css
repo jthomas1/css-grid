@@ -1,0 +1,21 @@
+
+.grid {
+  display:grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.grid div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-color: #8AA1B1;
+  border-radius: 1px;
+}
+
+.grid div:nth-child(odd) {
+  background-color: #9AC2C9;
+}
